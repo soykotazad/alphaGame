@@ -8,6 +8,14 @@ function showEle(id){
     const element=document.getElementById(id);
     element.classList.remove("hidden");
 }
+
+
+function addBgC(id){
+    const element=document.getElementById(id);
+    element.classList.add('bg-orange-600');
+}
+
+
 function getRandom(){
     //get or create alpha array
     const alphaS= 'abcdefghijklmnopqrstuvwxyz';
